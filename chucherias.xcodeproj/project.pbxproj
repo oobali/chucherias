@@ -14,6 +14,9 @@
 		581551562C8CB79E00626B3A /* chucheriasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581551552C8CB79E00626B3A /* chucheriasTests.swift */; };
 		581551602C8CB79E00626B3A /* chucheriasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815515F2C8CB79E00626B3A /* chucheriasUITests.swift */; };
 		581551622C8CB79E00626B3A /* chucheriasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581551612C8CB79E00626B3A /* chucheriasUITestsLaunchTests.swift */; };
+		581551732C8CBDB800626B3A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581551722C8CBDB800626B3A /* Home.swift */; };
+		581551762C8CC0FF00626B3A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581551752C8CC0FF00626B3A /* CategoryModel.swift */; };
+		581551782C8CCDE600626B3A /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581551772C8CCDE600626B3A /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		5815515B2C8CB79E00626B3A /* chucheriasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chucheriasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5815515F2C8CB79E00626B3A /* chucheriasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chucheriasUITests.swift; sourceTree = "<group>"; };
 		581551612C8CB79E00626B3A /* chucheriasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chucheriasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		581551722C8CBDB800626B3A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		581551752C8CC0FF00626B3A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		581551772C8CCDE600626B3A /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		581551432C8CB79800626B3A /* chucherias */ = {
 			isa = PBXGroup;
 			children = (
+				581551742C8CC0D200626B3A /* Model */,
+				5815516F2C8CBD2200626B3A /* View */,
 				581551442C8CB79800626B3A /* chucheriasApp.swift */,
 				581551462C8CB79800626B3A /* ContentView.swift */,
 				581551482C8CB79D00626B3A /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				581551612C8CB79E00626B3A /* chucheriasUITestsLaunchTests.swift */,
 			);
 			path = chucheriasUITests;
+			sourceTree = "<group>";
+		};
+		5815516F2C8CBD2200626B3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				581551722C8CBDB800626B3A /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		581551742C8CC0D200626B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				581551752C8CC0FF00626B3A /* CategoryModel.swift */,
+				581551772C8CCDE600626B3A /* ProductModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				581551472C8CB79800626B3A /* ContentView.swift in Sources */,
+				581551762C8CC0FF00626B3A /* CategoryModel.swift in Sources */,
+				581551732C8CBDB800626B3A /* Home.swift in Sources */,
 				581551452C8CB79800626B3A /* chucheriasApp.swift in Sources */,
+				581551782C8CCDE600626B3A /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
