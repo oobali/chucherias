@@ -13,6 +13,7 @@ struct CategoryModel: Identifiable, Hashable {
     var title: String
 }
 
+// Sample category
 var categoryList: [CategoryModel] = [
     CategoryModel(icon: "", title: "All"),
     CategoryModel(icon: "birthday.cake", title: "Pasteles"),
