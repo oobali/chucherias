@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "lidya-nada--iX-0JI8-0Y-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "lidya-nada--iX-0JI8-0Y-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "lidya-nada--iX-0JI8-0Y-unsplash 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
